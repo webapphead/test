@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="241" started-at="2018-06-06T09:09:52Z" finished-at="2018-06-06T09:09:52Z">
+    <groups>
+    </groups>
+    <test name="testone" duration-ms="10" started-at="2018-06-06T09:09:52Z" finished-at="2018-06-06T09:09:52Z">
+      <class name="com.eloancn.test.testcase.TestNg">
+        <test-method status="PASS" signature="getParam(java.lang.String)[pri:0, instance:com.eloancn.test.testcase.TestNg@6fbc18ca]" name="getParam" is-config="true" duration-ms="1" started-at="2018-06-06T17:09:52Z" finished-at="2018-06-06T17:09:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getParam -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.eloancn.test.testcase.TestNg@6fbc18ca]" name="test1" duration-ms="1" started-at="2018-06-06T17:09:52Z" finished-at="2018-06-06T17:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test3(java.lang.String)[pri:0, instance:com.eloancn.test.testcase.TestNg@6fbc18ca]" name="test3" duration-ms="0" started-at="2018-06-06T17:09:52Z" finished-at="2018-06-06T17:09:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.eloancn.test.testcase.TestNg -->
+    </test> <!-- testone -->
+    <test name="testTransCredit" duration-ms="220" started-at="2018-06-06T09:09:52Z" finished-at="2018-06-06T09:09:52Z">
+      <class name="com.eloancn.test.testcase.TransCreditTestCase">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.eloancn.test.testcase.TransCreditTestCase@510765e2]" name="init" is-config="true" duration-ms="929" started-at="2018-06-06T17:09:51Z" finished-at="2018-06-06T17:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testTransCreditList(com.eloancn.transloan.dto.TransCreditListQueryDTO)[pri:0, instance:com.eloancn.test.testcase.TransCreditTestCase@510765e2]" name="testTransCreditList" duration-ms="218" started-at="2018-06-06T17:09:52Z" data-provider="transcreditParam" finished-at="2018-06-06T17:09:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.eloancn.transloan.dto.TransCreditListQueryDTO@26fe8633]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransCreditList -->
+      </class> <!-- com.eloancn.test.testcase.TransCreditTestCase -->
+    </test> <!-- testTransCredit -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]">
+  <test name="testTransCredit(failed)">
+    <classes>
+      <class name="com.eloancn.test.testcase.TransCreditTestCase">
+        <methods>
+          <include name="addTransCreditTrackTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.eloancn.test.testcase.TransCreditTestCase -->
+    </classes>
+  </test> <!-- testTransCredit(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

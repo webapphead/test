@@ -1,0 +1,47 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="testTng" basedir="." default="transform">
+
+   <property name="lib.dir" value="${basedir}/target/test/WEB-INF/lib"></property>
+    <property name="reportlib.dir" value="${basedir}/test-output/lib" />
+    <property name="test-output.dir" location="${basedir}/test-output" />
+
+    <path id=".classpath">
+        &lt;!&ndash; adding the saxon jar to your classpath &ndash;&gt;
+        <fileset dir="${reportlib.dir}" includes="*.jar" />
+        <fileset dir="${lib.dir}" includes="*.jar"></fileset>
+    </path>
+
+    <taskdef name="testng" classname="org.testng.TestNGAntTask">
+        <classpath>
+            <pathelement location="${basedir}/target/test/WEB-INF/lib/testng-6.8.jar"/>
+        </classpath>
+    </taskdef>
+
+    <target name="test">
+        <testng outputdir="${test-output.dir}" classfilesetref=".classpath">
+            <xmlfileset dir="${basedir}" includes="testng.xml"/>
+        </testng>
+    </target>
+
+    <target name="transform">
+
+        <xslt
+                in="${basedir}/test-output/testng-results.xml"
+                style="${basedir}/test-output/testng-results.xsl"
+
+                out="${basedir}/test-output/index1.html">
+
+            &lt;!&ndash; you need to specify the directory here again &ndash;&gt;
+
+            <param name="testNgXslt.outputDir"
+                   expression="${basedir}/test-output/" />
+
+            <classpath refid=".classpath" />
+
+        </xslt>
+
+    </target>
+
+</project>-->

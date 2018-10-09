@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="All Test Suite">
+        <!--<test preserve-order="true" name="testone">
+            <parameter name="paramStr" value="1111"></parameter>
+            <classes>
+                <class name="com.eloancn.test.testcase.TestNg">
+                   <methods>
+                       &lt;!&ndash; <include name="test1"/>
+                        <include name="test2"/>
+                        <include name="test3"/>&ndash;&gt;
+                        <exclude name="test2"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>-->
+        <test preserve-order="true" name="testTransCredit">
+            <classes>
+                <class name="com.eloancn.test.testcase.TransCreditTestCase">
+                   <methods>
+                        <include name="addTransCreditTrackTest"></include>
+                    </methods>
+                </class>
+
+            </classes>
+
+        </test>
+    </suite>

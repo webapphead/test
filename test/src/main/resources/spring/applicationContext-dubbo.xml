@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+        http://www.springframework.org/schema/beans/spring-beans.xsd  
+        http://code.alibabatech.com/schema/dubbo  
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd  
+        ">
+
+    <dubbo:application name="transloan-test-provider" owner="transloan-test" organization="dubbox" />
+    <dubbo:registry protocol="zookeeper" address="192.168.0.79:2181"
+    				id="elZookeeper_trans_test" timeout="15000" />
+    <dubbo:protocol name="dubbo" port="-1" />
+    <dubbo:monitor protocol="registry" />
+
+    <!--elZookeeper -->
+    <dubbo:reference id="transCreditNewSanBServiceApi" interface="com.eloancn.transloan.api.ITransCreditNewSanBServiceApi"
+                                                                                                                     group="trans-soa-test" version="1.1.0" timeout="30000"
+                                                                                                                     registry="elZookeeper_trans_test" validation="false" lazy="true" retries="0" />
+
+
+</beans>

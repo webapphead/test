@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.eloancn.common:common-api:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/eloancn/common/common-api/1.0-SNAPSHOT/common-api-1.0-20160419.122243-6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/eloancn/common/common-api/1.0-SNAPSHOT/common-api-1.0-20160419.122243-6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/eloancn/common/common-api/1.0-SNAPSHOT/common-api-1.0-20160419.122243-6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
